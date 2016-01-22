@@ -1,3 +1,5 @@
+def temperature()
+	
 puts "What temperature do you want to convert to (C or F)?"
 user_metric = gets.chomp
 puts "What is the current temperature?"
@@ -13,4 +15,5 @@ if user_metric = C
 else
 	unit_conversion = (user_temperature - 32) / 1.8
 
-print "The temperature is" + unit_conversion + "degrees in" + user_metric_reversed
+print "The temperature is #{unit_conversion} degrees in #{user_metric_reversed}"
+end
